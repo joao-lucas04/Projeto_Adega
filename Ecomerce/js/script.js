@@ -55,24 +55,27 @@ function pedidos() {
     window.location.href = "pages/pedidos.html";
 }
 
+//troca para pagina do carrinho de compras
+function carrinho() {
+    window.location.href = "pages/carrinho.html";
+}
+
+
 //troca para a pagina pedidos ao cliclar em qualquer produto disponivel
 document.addEventListener("DOMContentLoaded", function produtos(){
     let produtos = document.querySelectorAll('.produto');
     produtos.forEach(function(carregar) {
         carregar.addEventListener('click', function() {
-            window.location.href = "pages/pedidos.html";
+            window.location.href = "pages/carrinho.html";
         });
     });
 });
 
 //ao clicar na imagem do mapa, abrira o maps com a localização
 let mapa = document.getElementById("local"); //declarando variavel
-
 mapa.addEventListener("click", function () { //adicionando evento de click
     window.location.href = "https://maps.app.goo.gl/2ow3d3ic4kj7NYwh7";
 });
 
 
-
-//script utilizado na página pedidos.html
 

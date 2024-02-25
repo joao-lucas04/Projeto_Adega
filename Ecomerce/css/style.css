@@ -22,6 +22,16 @@ body{
 #img_logo{
     cursor: pointer;
 }
+#img_logo:hover{
+    transform: scale(1.1);
+}
+#carrinho{
+    cursor: pointer;
+    margin-top: 5%;
+}
+#carrinho:hover{
+    transform: scale(1.1);
+}
 
 .opcao{
     color: #000100;
@@ -99,6 +109,7 @@ body{
     font-family: Proxima Nova,-apple-system,Helvetica Neue,helvetica,roboto,arial,sans-serif; 
 }
 
+
 #quem_somos{
     text-align: center;
 }
@@ -132,9 +143,3 @@ footer {
 }
 
 
-
-/*CSS utilizado na página de pedidos.html*/
-form{
-    background-color: #fdffff;
-    border: 1px solid #000100;
-}
